@@ -6,7 +6,9 @@ Launch the upgrade by pointing your browser to the _upgrade_ directory of your s
 http://example.com/upgrade/
 ```
 
-This should show a page like this: ![XOOPS Upgrade Startup](../../.gitbook/assets/upgrade-01.png)
+This should show a page like this:
+
+![XOOPS Upgrade Startup](../../.gitbook/assets/upgrade-01.png)
 
 Select the "Continue" button to proceed.
 

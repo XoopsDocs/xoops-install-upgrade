@@ -36,7 +36,7 @@ Copy the entire _upgrade_ directory from the distribution to your web root, crea
 
 You should not recopy the _install_ directory into a working XOOPS system. Leaving the install folder in your XOOPS installation exposes your system to potential security issues. The installer randomly renames it, but you should delete it and make sure you don't copy in another one.
 
-There are some file you may have editied to customize your site, and you will want to preserve those. Here is a list of common customizations.
+There are some files you may have editied to customize your site, and you will want to preserve those. Here is a list of common customizations.
 
 * _xoops\_data/configs/xoopsconfig.php_ if it has been changed since the site was installed
 * any directories in _themes_ if customized for your site. In this case you may want to compare files to identify useful updates.
