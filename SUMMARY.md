@@ -1,9 +1,9 @@
 # Table of contents
 
 * [The XOOPS Install & Upgrade Guide](README.md)
-* [The XOOPS Install & Upgrade Guide](en.md)
+* [The XOOPS Install & Upgrade Guide - en](en.md)
 * [Introduction](introduction.md)
-* [LANGS](langs.md)
+* [Languages](langs.md)
 
 ## Installation
 
@@ -56,4 +56,4 @@
 
 ## License
 
-* [LICENSE](license.md)
+* [License](license.md)

@@ -46,3 +46,6 @@ chgrp www-data mainfile.php
 chmod g+w mainfile.php
 ```
 
+### SELinux Environments
+
+SELinux security contexts can be a source of problems. If this might apply, please refer to [Special Topics](../specialtopics.md) for more information.

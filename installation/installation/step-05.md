@@ -30,3 +30,7 @@ Password of the database user account entered above.
 
 Default is 'No'. Leave this blank if you are unsure.
 
+## Note for MySQL 8 Environments
+
+Some PHP versions will have issues with MYSQL 8. If this might apply, please refer to [Special Topics](../specialtopics.md) for more information.
+
