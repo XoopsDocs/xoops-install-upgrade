@@ -1,59 +1,62 @@
-# The XOOPS 2.5.9 Install & Upgrade Guide
+# The XOOPS Install & Upgrade Guide
 
 ![](.gitbook/assets/logoxoops.jpg)
 
-## XOOPS 2.5.9 Installation Guide
+Copyright © 2018-2019 XOOPS Project \([https://xoops.org](https://xoops.org)\)
 
-Copyright © 2018 XOOPS Project \([https://xoops.org](https://xoops.org)\)
+# Table of contents
 
-## Table of Contents
-
+* [The XOOPS Install & Upgrade Guide](README.md)
+* [The XOOPS Install & Upgrade Guide](en.md)
 * [Introduction](introduction.md)
+* [LANGS](langs.md)
 
-### Installation
+## Installation
 
-* [Requirements](installation/requirements.md)
-* [Preparations](installation/preparations/)
-* [Installation](installation/installation/)
-  * [Language Selection](installation/installation/step-01.md)
-  * [Welcome](installation/installation/step-02.md)
-  * [Configuration Check](installation/installation/step-03.md)
-  * [Path Setting](installation/installation/step-04.md)
-  * [Database Connection](installation/installation/step-05.md)
-  * [Database Configuration](installation/installation/step-06.md)
-  * [Save Configuration](installation/installation/step-07.md)
-  * [Table Creation](installation/installation/step-08.md)
-  * [Initial Settings](installation/installation/step-09.md)
-  * [Data Insertion](installation/installation/step-10.md)
-  * [Site Configuration](installation/installation/step-11.md)
-  * [Select Theme](installation/installation/step-12.md)
-  * [Modules Installation](installation/installation/step-13.md)
-  * [Welcome](installation/installation/step-14.md)
-  * [Cleanup](installation/installation/step-20.md)
+* [Requirements​](installation/requirements.md)
+* [Preparations​](installation/preparations/README.md)
+  * [phpinfo](installation/preparations/phpinfo.md)
+* [Special Topics](installation/specialtopics.md)
+* [​Installation​](installation/installation/README.md)
+  * [Language Selection​](installation/installation/step-01.md)
+  * [Welcome​](installation/installation/step-02.md)
+  * [​Configuration Check​](installation/installation/step-03.md)
+  * [​Path Setting​](installation/installation/step-04.md)
+  * [Database Connection​](installation/installation/step-05.md)
+  * [Database Configuration​](installation/installation/step-06.md)
+  * [Save Configuration​](installation/installation/step-07.md)
+  * [Table Creation​](installation/installation/step-08.md)
+  * [Initial Settings​](installation/installation/step-09.md)
+  * [​Data Insertion​](installation/installation/step-10.md)
+  * [Site Configuration​](installation/installation/step-11.md)
+  * [Select Theme​](installation/installation/step-12.md)
+  * [Modules Installation​](installation/installation/step-13.md)
+  * [​Welcome​](installation/installation/step-14.md)
+  * [Cleanup​](installation/installation/step-20.md)
 
-### First Steps
+## First Steps
 
-* [Review System Settings](first-steps/firststeps/)
-  * [Configure Email](first-steps/firststeps/email.md)
-* [Add a Module](first-steps/firststeps/modules.md)
+* [Review System Settings](first-steps/firststeps/README.md)
+  * [Configure Emai​l](first-steps/firststeps/email.md)
+  * [Add a module](first-steps/firststeps/modules.md)
 
-### Upgrading
+## Upgrading
 
-* [Upgrading](upgrading/upgrade/)
-  * [Preparations for Upgrade](upgrading/upgrade/ustep-01.md)
-  * [Running Upgrade](upgrading/upgrade/ustep-02.md)
-  * [Troubleshooting](upgrading/upgrade/ustep-03.md)
-  * [After the Upgrade](upgrading/upgrade/ustep-04.md)
+* [​Upgrading​](upgrading/upgrade/README.md)
+  * [Preparations for Upgrade​](upgrading/upgrade/ustep-01.md)
+  * [Running Upgrade​](upgrading/upgrade/ustep-02.md)
+  * [Troubleshooting​](upgrading/upgrade/ustep-03.md)
+  * [​After the Upgrade​](upgrading/upgrade/ustep-04.md)
 
-### Moving a Site
+## Moving a Site
 
-* [Moving a XOOPS Site](moving-a-site/moving.md)
+* [Moving a Site](moving-a-site/moving.md)
 
-### Notes for Developers
+## Notes for Developers
 
-* [For Developers](notes-for-developers/developers.md)
+* [Notes for Developers](notes-for-developers/developers.md)
 
-### Tools
+## Tools
 
 * [Tools of the Trade](tools/tools.md)
 

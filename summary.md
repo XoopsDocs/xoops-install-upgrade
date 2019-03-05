@@ -1,9 +1,8 @@
 # Table of contents
 
-* [The XOOPS 2.5.9 Install & Upgrade Guide](README.md)
-* [The XOOPS 2.5.9 Install & Upgrade Guide](en.md)
+* [The XOOPS Install & Upgrade Guide](README.md)
+* [The XOOPS Install & Upgrade Guide](en.md)
 * [Introduction](introduction.md)
-* [Content](summary.md)
 * [LANGS](langs.md)
 
 ## Installation
@@ -11,6 +10,7 @@
 * [Requirements​](installation/requirements.md)
 * [Preparations​](installation/preparations/README.md)
   * [phpinfo](installation/preparations/phpinfo.md)
+* [Special Topics](installation/specialtopics.md)
 * [​Installation​](installation/installation/README.md)
   * [Language Selection​](installation/installation/step-01.md)
   * [Welcome​](installation/installation/step-02.md)
@@ -53,5 +53,7 @@
 ## Tools
 
 * [Tools of the Trade](tools/tools.md)
-* [LICENSE](tools/license.md)
 
+## License
+
+* [License](license.md)

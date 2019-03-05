@@ -8,5 +8,5 @@ The _Recommended extensions_ section indicates additional PHP extensions that XO
 
 After reviewing, select the "Continue" button to proceed.
 
-![XOOPS Installer Configuration Check on Mobile](../../.gitbook/assets/installer-03-tablet.png)
+![XOOPS Installer Configuration Check](../../.gitbook/assets/installer-03.png)
 

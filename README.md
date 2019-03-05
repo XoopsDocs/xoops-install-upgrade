@@ -1,12 +1,14 @@
-# The XOOPS 2.5.9 Install & Upgrade Guide
+# The XOOPS Install & Upgrade Guide
 
 ![XOOPS Logo](.gitbook/assets/logoxoops.jpg)
 
-## The XOOPS 2.5.9 Install and Upgrade Guide
+## XOOPS Version
 
-### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoops-2.5.9-install-upgrade/)
+This version contains information specific to XOOPS 2.5.10
 
-Copyright © 2018 XOOPS Project \([xoops.org](https://xoops.org)\)
+### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoops-install-upgrade/)
+
+Copyright © 2018-2019 XOOPS Project \([xoops.org](https://xoops.org)\)
 
 ### License:
 

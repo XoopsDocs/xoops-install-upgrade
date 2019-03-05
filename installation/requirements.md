@@ -2,13 +2,13 @@
 
 ## Software Environment \(the Stack\)
 
-Most XOOPS production sites run on a _LAMP_ stack \(a **L**inux system running **A**pache, **M**ySQL and **P**HP\) nut, there are a lot of different possible stacks.
+Most XOOPS production sites run on a _LAMP_ stack \(a **L**inux system running **A**pache, **M**ySQL and **P**HP\) but, there are a lot of different possible stacks.
 
 It is often easiest to prototype a new site on a local machine. For this case, many XOOPS users choose a _WAMP_ stack \(using **W**indows as the OS,\) while others run _LAMP_ or _MAMP_ \(**M**AC\) stacks.
 
 ### PHP
 
-Any PHP version &gt;= 5.3.7 \(PHP 5.6 or higher is strongly recommended\)
+Any PHP version &gt;= 5.3.9 \(PHP 7.1 or higher is strongly recommended\)
 
 ### MySQL
 
@@ -49,3 +49,6 @@ You may need some additional tools to setup and customize your XOOPS installatio
 
 See the [Tools of the Trade](../tools/tools.md) section for some suggestions for suitable tools and web server stacks if needed.
 
+## Special Topics
+
+Some specific system software combinations may require some additional configurations to work with XOOPS. If you are using an SELinux or MySQL 8.0 environment please refer to [Special Topics](specialtopics.md) for more information.

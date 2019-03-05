@@ -4,5 +4,5 @@ The _Welcome to your XOOPS site_ briefly covers some available XOOPS resources a
 
 After reviewing, select the "Continue" button to proceed to your new site.
 
-![XOOPS Installer Welcome on Mobile](../../.gitbook/assets/installer-14-tablet.png)
+![XOOPS Installer Welcome](../../.gitbook/assets/installer-14.png)
 
