@@ -7,7 +7,9 @@ The first task in the XOOPS installation is to copy the [files you extracted](..
 * From the `htdocs` directory, copy the contents of the `xoops_data` directory to the relocated/renamed directory you have decided on.
 * From the `htdocs` directory, copy the contents of the `xoops_lib` directory to the relocated/renamed directory you have decided on.
 
-![Filezilla Create Folder](../../.gitbook/assets/filezilla-02-private.png) ![Filezilla Upload Data and Lib Directories](../../.gitbook/assets/filezilla-03-data-lib.png)
+![Filezilla Create Folder](../../.gitbook/assets/filezilla-02-private.png)
+
+![Filezilla Upload Data and Lib Directories](../../.gitbook/assets/filezilla-03-data-lib.png)
 
 ## Copy the Remaining Files
 
