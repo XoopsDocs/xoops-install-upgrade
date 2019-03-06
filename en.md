@@ -7,9 +7,9 @@ Copyright © 2018-2019 XOOPS Project \([https://xoops.org](https://xoops.org)\)
 # Table of contents
 
 * [The XOOPS Install & Upgrade Guide](README.md)
-* [The XOOPS Install & Upgrade Guide](en.md)
+* [The XOOPS Install & Upgrade Guide - en](en.md)
 * [Introduction](introduction.md)
-* [LANGS](langs.md)
+* [Languages](langs.md)
 
 ## Installation
 
@@ -65,7 +65,7 @@ Copyright © 2018-2019 XOOPS Project \([https://xoops.org](https://xoops.org)\)
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project \([www.xoops.org](https://xoops.org)\)
+All derivative works are to be attributed to XOOPS Project \([xoops.org](https://xoops.org)\)
 
 ## How to Contribute
 

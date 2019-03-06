@@ -67,10 +67,14 @@ Some platforms, such as Ubuntu, have the whole stack needed to run XOOPS built i
 
 **bitnami** offers a wide range of prebuilt application stacks, including virtual machine and container images. Their offerings can be a valuable resource to quickly try out applications \(including XOOPS\) or various web technologies. They can be suitable for production as well as development use.
 
+**Docker** is an application container platform, used to create and run containers to implement custom environments. 
+
 | Name | Link | License | Platform |
 | :--- | :--- | :--- | :--- |
 | WAMP | [http://www.wampserver.com/](http://www.wampserver.com/) | Multiple | Win |
 | Uniform Server Zero | [http://www.uniformserver.com/](http://www.uniformserver.com/) | Multiple | Win |
 | XAMPP | [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html) | Multiple | Any |
 | bitnami | [https://bitnami.com/](https://bitnami.com/) | Multiple | Any |
+| Docker | [https://www.docker.com/](https://www.docker.com/) | Multiple | Any |
 
+ A example Docker environment used by XOOPS delevopers for testing can be found at [geekwright/xoops_mysql8](https://github.com/geekwright/xoops_mysql8).

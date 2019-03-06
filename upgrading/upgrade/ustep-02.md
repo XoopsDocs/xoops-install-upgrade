@@ -18,7 +18,7 @@ Each "Continue" advances through another patch. Keep continuing until all patche
 
 ## Choosing a Language
 
-The main XOOPS distribution comes with English support. Support for additional locales is supplied by [XOOPS Local support sites](http://www.xoops.org/modules/xoopspartners/). This support can come in the form of a customized distribution, or additional files to add to the main distribution.
+The main XOOPS distribution comes with English support. Support for additional locales is supplied by [XOOPS Local support sites](https://xoops.org/modules/xoopspartners/). This support can come in the form of a customized distribution, or additional files to add to the main distribution.
 
 XOOPS translations are maintained on [transifex](https://www.transifex.com/xoops/public/)
 
