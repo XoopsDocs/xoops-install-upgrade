@@ -20,13 +20,13 @@ Follow the releases tag, and locate the _Latest Release_
 
 Download the release archive \(your prefernce of either .zip or .tar.gz flavor.\) Extract the contents of the archive.
 
-![XOOPS Module Release on GitHub](../../.gitbook/assets/module-extract-01.png)
+![Extracting the XOOPS Module Source Code](../../.gitbook/assets/module-extract-01.png)
 
 The archive will have a name composed of the repository name \(i.e. publisher\) followed by a dash, and the release version tag. When you are preparing the extracted archive to upload to your XOOPS site, remove everything from the dash and after it from the folder name. In this case, it should just be "publisher" and not something like "publisher-v1.04\_Final".
 
 Upload the _publisher_ directory and all of its contents to the _modules_ directory in the web root of your XOOPS installation.
 
-![XOOPS Module Release on GitHub](../../.gitbook/assets/module-upload-01.png)
+![Uploading a Module to Your XOOPS System](../../.gitbook/assets/module-upload-01.png)
 
 Once the module files are uploaded, enter the Administration area of your XOOPS system, and select _Modules_
 
