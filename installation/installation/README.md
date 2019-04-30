@@ -24,7 +24,6 @@ Normally, these will be created correctly during the _copy_ processes in the pre
 * mainfile.php
 * uploads/  and all the files and directories it contains
 * xoops\_data/ \(as relocated/renamed\) and all the files and directories it contains
-* xoops\_lib/modules/protector/configs/ \(as relocated/renamed\)
 
 ## Launch the XOOPS Installer
 
