@@ -13,7 +13,7 @@ Obtain or prepare an environment to host the XOOPS system you will install, as d
 
 ## Download XOOPS
 
-Download the XOOPS 2.5.10 release from [GitHub](https://github.com/XOOPS/XoopsCore25/releases)
+Download the XOOPS 2.5.11 release from [GitHub](https://github.com/XOOPS/XoopsCore25/releases)
 
 Extract the files from the downloaded archive to prepare for copying to your server.
 
