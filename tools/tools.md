@@ -23,7 +23,7 @@ For XOOPS use, you will need an editor to tweak some configuration options as we
 | PhpStorm | [https://www.jetbrains.com/phpstorm/](https://www.jetbrains.com/phpstorm/) | Commercial | Any |
 | Visual Studio Code | [https://code.visualstudio.com/](https://code.visualstudio.com/) | MIT | Any |
 | Notepad++ | [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) | GPL | Win |
-| Meld | [http://meldmerge.org/](http://meldmerge.org/) | GPL | Any |
+| Meld | [https://meldmerge.org/](https://meldmerge.org/) | GPL | Any |
 
 ## FTP Client
 

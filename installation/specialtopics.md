@@ -67,10 +67,12 @@ For more information consult your system documentation and/or systems administra
 
 ## MySQL 8.0 Environments
 
-MySQL 8.0 is not supported in all PHP versions. Even in the supported versions, issues with the 
- PHP *mysqlnd* library may require the MySQL server's *default-authentication-plugin* 
- to be set to *mysql_native_password* to function correctly.
+MySQL 8.0 is not fully supported in PHP versions before 7.1.16, or PHP 7.2 versions before 7.2.4. In earlier versions, 
+issues with the  PHP *mysqlnd* library may require the MySQL server's *default-authentication-plugin* to be set to 
+*mysql_native_password* to function correctly.
  
 Additional background may be found here: 
+
+https://www.php.net/manual/en/mysqli.requirements.php
 
 https://mysqlserverteam.com/upgrading-to-mysql-8-0-default-authentication-plugin-considerations/

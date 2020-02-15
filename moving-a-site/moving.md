@@ -61,10 +61,10 @@ As an example, if you are moving a site from your local PC to a commercial hosti
 | XOOPS\_ROOT\_PATH | c:/wamp/xoopscore25/htdocs | /home8/example/public\_html |
 | XOOPS\_PATH | c:/wamp/xoopscore25/htdocs/xoops\_lib | /home8/example/private/xoops\_lib |
 | XOOPS\_VAR\_PATH | c:/wamp/xoopscore25/htdocs/xoops\_data | /home8/example/private/xoops\_data |
-| XOOPS\_URL | [http://localhost/xoops/](http://localhost/xoops/) | [https://example.com](https://example.com) |
+| XOOPS\_URL | http://localhost/xoops | https://example.com |
 | XOOPS\_COOKIE\_DOMAIN | localhost | example.com |
 
-After you have changed mainfile.php, save it.
+After you have changed _mainfile.php_, save it.
 
 It is possible that some other files may contain hardcoded references to your URL or even paths. This is more likely in customized themes and menus, but with your editor, you can seach across all files, just to be sure.
 
