@@ -2,7 +2,7 @@
 
 The first task in the XOOPS installation is to copy the [files you extracted](../preparations/) from the XOOPS distribution archive to your server.
 
-## Copy the xoops\_data and xoops\_lib Directories on Your Server
+## Copy the xoops\_data and xoops\_lib Directories to Your Server
 
 * From the `htdocs` directory, copy the contents of the `xoops_data` directory to the relocated/renamed directory you have decided on.
 * From the `htdocs` directory, copy the contents of the `xoops_lib` directory to the relocated/renamed directory you have decided on.
