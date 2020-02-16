@@ -1,6 +1,6 @@
 # phpinfo
 
-This step is optional, but can easily save your hours of frustration.
+This step is optional, but can easily save you hours of frustration.
 
 As a pre-install test of the hosting system, a very small, but useful PHP script is created locally, and uploaded to the target system.
 
@@ -26,5 +26,5 @@ The output of the script might come in handy for troubleshooting, so consider sa
 
 If the test works, you should be good to go for the install. You should delete the _info.php_ script, and proceed with the install.
 
-If the test fails, investigate why, as whatever issue is preventing this simple test from working **will** prevent a real install from working.
+If the test fails, investigate why! Whatever issue is preventing this simple test from working **will** prevent a real install from working.
 

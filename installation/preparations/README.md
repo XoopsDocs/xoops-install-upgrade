@@ -17,7 +17,7 @@ Download the XOOPS 2.5.11 release from [GitHub](https://github.com/XOOPS/XoopsCo
 
 Extract the files from the downloaded archive to prepare for copying to your server.
 
-![Working with XOOPS Zip](../../.gitbook/assets/zip-on-mobile.png)
+![Working with XOOPS Zip](../../.gitbook/assets/zip-on-windows10.png)
 
 ## Decide on a Strategy
 
