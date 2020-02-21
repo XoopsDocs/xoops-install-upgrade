@@ -69,6 +69,8 @@ Some platforms, such as Ubuntu, have the whole stack needed to run XOOPS built i
 
 **Docker** is an application container platform, used to create and run containers to implement custom environments. 
 
+**Devilbox** is an easily configured Docker based development stack. It offers a wide range of versions for all stack components, and allows developers to test in a reproducible and shareable environment. 
+
 | Name | Link | License | Platform |
 | :--- | :--- | :--- | :--- |
 | WAMP | [http://www.wampserver.com/](http://www.wampserver.com/) | Multiple | Win |
@@ -76,5 +78,4 @@ Some platforms, such as Ubuntu, have the whole stack needed to run XOOPS built i
 | XAMPP | [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html) | Multiple | Any |
 | bitnami | [https://bitnami.com/](https://bitnami.com/) | Multiple | Any |
 | Docker | [https://www.docker.com/](https://www.docker.com/) | Multiple | Any |
-
- A example Docker environment used by XOOPS delevopers for testing can be found at [geekwright/xoops_mysql8](https://github.com/geekwright/xoops_mysql8).
+| Devilbox | [http://devilbox.org/](http://devilbox.org/) | MIT | Any |
