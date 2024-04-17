@@ -8,7 +8,7 @@ It is often easiest to prototype a new site on a local machine. For this case, m
 
 ### PHP
 
-Any PHP version &gt;= 5.3.9 \(PHP 7.1 or higher is strongly recommended\)
+PHP 7.4 or higher is strongly recommended
 
 ### MySQL
 
