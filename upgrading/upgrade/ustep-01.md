@@ -30,7 +30,22 @@ Being fluent in backing up, and _restoring_ your database is an important webmas
 
 Copying the new files to your site is virtually identical to the [Preparations](../../installation/preparations/) step during installation. You should copy the _xoops\_data_ and _xoops\_lib_ directories to wherever these were relocated during the install. Then, copy the rest of the contents of the distribution's _htdocs_ directory \(with a few exceptions covered in the next section\) over the existing files and directories in your web root.
 
+In XOOPS 2.7.0, copying a new distribution on top of an existing site **will not overwrite existing configuration files** such as `mainfile.php` or `xoops_data/data/secure.php`. This is a welcome change from earlier versions, but you should still make a full backup before starting.
+
 Copy the entire _upgrade_ directory from the distribution to your web root, creating an _upgrade_ directory there.
+
+## Run the Smarty 4 Preflight Check
+
+Before launching the main `/upgrade/` workflow, you must run the preflight scanner shipped in the `upgrade/` directory. It examines your existing themes and module templates for Smarty 4 compatibility issues and can automatically repair many of them.
+
+1. Point your browser at _your-site-url_/upgrade/preflight.php
+2. Log in with an administrator account
+3. Run the scan and review the report
+4. Apply any automatic repairs offered, or fix flagged templates manually
+5. Re-run the scan until it is clean
+6. Only then continue to the main upgrade
+
+See the [Preflight Check](preflight.md) page for a full walkthrough.
 
 ### Things You Might Not Want To Copy Over
 
@@ -46,9 +61,11 @@ There are some files you may have editied to customize your site, and you will w
 
 If you realize after the upgrade that something was accidentally overwritten, don't panic -- that is why you started with a full backup. _\(You did make a backup, right?\)_
 
-## Check mainfile.php
+## Check mainfile.php (Upgrading from Pre-2.5 XOOPS)
 
-Old versions of XOOPS \(i.e. 2.3\) required some manual changes to be made in mainfile.php to enable the Protector module. In your web root you should have a file named `mainfile.php`. Open that file in your editor and look for these lines:
+This step only applies if you are upgrading from an old XOOPS version (2.3 or earlier). If you are upgrading from XOOPS 2.5.x you can skip this section.
+
+Old versions of XOOPS required some manual changes to be made in `mainfile.php` to enable the Protector module. In your web root you should have a file named `mainfile.php`. Open that file in your editor and look for these lines:
 
 ```php
 include XOOPS_TRUST_PATH.'/modules/protector/include/precheck.inc.php' ;

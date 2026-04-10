@@ -2,51 +2,53 @@
 
 ![](.gitbook/assets/logoxoops.jpg)
 
-Copyright © 2018-2020 XOOPS Project \([https://xoops.org](https://xoops.org)\)
+Copyright © 2018-2026 XOOPS Project \([https://xoops.org](https://xoops.org)\)
 
 # Table of contents
 
 * [The XOOPS Install & Upgrade Guide](README.md)
 * [The XOOPS Install & Upgrade Guide - en](en.md)
 * [Introduction](introduction.md)
+* [What's New in XOOPS 2.7.0](whats-new.md)
 * [Languages](langs.md)
 
 ## Installation
 
-* [Requirements​](installation/requirements.md)
-* [Preparations​](installation/preparations/README.md)
+* [Requirements](installation/requirements.md)
+* [Preparations](installation/preparations/README.md)
   * [phpinfo](installation/preparations/phpinfo.md)
 * [Special Topics](installation/specialtopics.md)
-* [​Installation​](installation/installation/README.md)
-  * [Language Selection​](installation/installation/step-01.md)
-  * [Welcome​](installation/installation/step-02.md)
-  * [​Configuration Check​](installation/installation/step-03.md)
-  * [​Path Setting​](installation/installation/step-04.md)
-  * [Database Connection​](installation/installation/step-05.md)
-  * [Database Configuration​](installation/installation/step-06.md)
-  * [Save Configuration​](installation/installation/step-07.md)
-  * [Table Creation​](installation/installation/step-08.md)
-  * [Initial Settings​](installation/installation/step-09.md)
-  * [​Data Insertion​](installation/installation/step-10.md)
-  * [Site Configuration​](installation/installation/step-11.md)
-  * [Select Theme​](installation/installation/step-12.md)
-  * [Modules Installation​](installation/installation/step-13.md)
-  * [​Welcome​](installation/installation/step-14.md)
-  * [Cleanup​](installation/installation/step-20.md)
+* [Installation](installation/installation/README.md)
+  * [Language Selection](installation/installation/step-01.md)
+  * [Welcome](installation/installation/step-02.md)
+  * [Configuration Check](installation/installation/step-03.md)
+  * [Path Setting](installation/installation/step-04.md)
+  * [Database Connection](installation/installation/step-05.md)
+  * [Database Configuration](installation/installation/step-06.md)
+  * [Save Configuration](installation/installation/step-07.md)
+  * [Table Creation](installation/installation/step-08.md)
+  * [Initial Settings](installation/installation/step-09.md)
+  * [Data Insertion](installation/installation/step-10.md)
+  * [Site Configuration](installation/installation/step-11.md)
+  * [Select Theme](installation/installation/step-12.md)
+  * [Modules Installation](installation/installation/step-13.md)
+  * [Welcome](installation/installation/step-14.md)
+  * [Cleanup](installation/installation/step-15.md)
 
 ## First Steps
 
 * [Review System Settings](first-steps/firststeps/README.md)
-  * [Configure Emai​l](first-steps/firststeps/email.md)
+  * [Configure Email](first-steps/firststeps/email.md)
   * [Add a module](first-steps/firststeps/modules.md)
 
 ## Upgrading
 
-* [​Upgrading​](upgrading/upgrade/README.md)
-  * [Preparations for Upgrade​](upgrading/upgrade/ustep-01.md)
-  * [Running Upgrade​](upgrading/upgrade/ustep-02.md)
-  * [Troubleshooting​](upgrading/upgrade/ustep-03.md)
-  * [​After the Upgrade​](upgrading/upgrade/ustep-04.md)
+* [Upgrading](upgrading/upgrade/README.md)
+  * [Preparations for Upgrade](upgrading/upgrade/ustep-01.md)
+  * [Preflight Check](upgrading/upgrade/preflight.md)
+  * [Running Upgrade](upgrading/upgrade/ustep-02.md)
+  * [Troubleshooting](upgrading/upgrade/ustep-03.md)
+  * [After the Upgrade](upgrading/upgrade/ustep-04.md)
 
 ## Moving a Site
 
@@ -69,7 +71,6 @@ All derivative works are to be attributed to XOOPS Project \([xoops.org](https:/
 
 ## How to Contribute
 
-[You can contribute on GitHub](https://github.com/XoopsDocs/xoops-installation-guide). Changes will be [pushed to Gitbook.io automatically](https://www.gitbook.com/book/xoops/xoops-installation-guide/activity) when the [main repository](https://github.com/XoopsDocs/xoops-installation-guide) changes.
+[You can contribute on GitHub](https://github.com/XoopsDocs/xoops-install-upgrade). Changes will be pushed to GitBook automatically when the [main repository](https://github.com/XoopsDocs/xoops-install-upgrade) changes.
 
-Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
-
+Editing the book can be done by updating the markdown files with a text editor.

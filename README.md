@@ -4,11 +4,11 @@
 
 ## XOOPS Version
 
-This version contains information current as of XOOPS 2.5.11
+This version contains information current as of **XOOPS 2.7.0**
 
-### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoops-install-upgrade/)
+### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://xoops.gitbook.io/xoops-install-upgrade/)
 
-Copyright © 2018-2020 XOOPS Project \([xoops.org](https://xoops.org)\)
+Copyright © 2018-2026 XOOPS Project \([xoops.org](https://xoops.org)\)
 
 ### License:
 

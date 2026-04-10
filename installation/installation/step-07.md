@@ -10,6 +10,20 @@ The _Saving your system configuration_ section shows the information that was sa
 
 ![XOOPS Installer Save Configuration](../../.gitbook/assets/installer-07.png)
 
+Both files are generated from template files shipped with XOOPS 2.7.0:
+
+* `mainfile.php` is generated from `mainfile.dist.php` in the web root.
+* `xoops_data/data/secure.php` is generated from `xoops_data/data/secure.dist.php`.
+
+In addition to the paths and URL you entered, `mainfile.php` now includes several constants that are new in XOOPS 2.7.0:
+
+* `XOOPS_TRUST_PATH` — kept as a backwards-compatible alias of `XOOPS_PATH`; you do not need to configure it separately.
+* `XOOPS_COOKIE_DOMAIN_USE_PSL` — defaults to `true`; uses the Public Suffix List to derive the correct cookie domain.
+* `XOOPS_DB_LEGACY_LOG` — defaults to `false`; set to `true` in development to log use of legacy database APIs.
+* `XOOPS_DEBUG` — defaults to `false`; set to `true` in development to enable additional error reporting.
+
+You do not need to edit these by hand during installation — the defaults are appropriate for a production site. They are mentioned here so you know what to look for if you open `mainfile.php` later.
+
 ## Errors
 
 If XOOPS detects errors in writing the configuration files, it will display messages, detailing what is wrong.

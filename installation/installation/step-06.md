@@ -20,9 +20,9 @@ This prefix will be added to the names of all new tables created by XOOPS. This 
 
 #### Database character set
 
-You can alter the character set that MySQL will use here, but it is _NOT_ recommended. The default is _UTF-8 Unicode_ and this will work with virtually all languages and locales.
+The installer defaults to `utf8mb4`, which supports the full Unicode range including emoji and supplementary characters. You can select a different character set here, but `utf8mb4` is recommended for virtually all languages and locales and should be left as-is unless you have a specific reason to change it.
 
 #### Database collation
 
-You can alter the default collation set that MySQL will use here, but it is _NOT_ recommended. The default is _utf8\_general\_ci_ and this will work well in most circumstances.
+The collation field is left blank by default. When blank, MySQL applies the default collation for whichever character set was selected above \(for `utf8mb4` this is typically `utf8mb4_general_ci` or `utf8mb4_0900_ai_ci`, depending on the MySQL version\). If you need a specific collation — for example to match an existing database — select it here. Otherwise, leaving it blank is the recommended choice.
 

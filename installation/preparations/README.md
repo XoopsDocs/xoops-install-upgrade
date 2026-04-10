@@ -2,18 +2,18 @@
 
 ## Taking Care of Requirements
 
-Obtain or prepare an environment to host the XOOPS system you will install, as detailed in [Requirements](https://github.com/xoops/xoops-2-5-9-install-upgrade/tree/7c186d5e1d7dc8beb4f01901d28db35cb75c1a89/en/book/requirements/README.php)
+Obtain or prepare an environment to host the XOOPS system you will install, as detailed in [Requirements](../requirements.md).
 
 * [ ] obtain hosting account
 * [ ] register domain
 * [ ] obtain email address for webmaster
 * [ ] obtain a MySQL user account and password
 * [ ] obtain a MySQL database that above user has all privileges on
-* [ ] obtain and familiarize yourself with any needed [tools](https://github.com/xoops/xoops-2-5-9-install-upgrade/tree/7c186d5e1d7dc8beb4f01901d28db35cb75c1a89/en/book/tools/README.php)
+* [ ] obtain and familiarize yourself with any needed [tools](../../tools/tools.md)
 
 ## Download XOOPS
 
-Download the XOOPS 2.5.11 release from [GitHub](https://github.com/XOOPS/XoopsCore25/releases)
+Download the XOOPS 2.7.0 release from [GitHub](https://github.com/XOOPS/XoopsCore27/releases)
 
 Extract the files from the downloaded archive to prepare for copying to your server.
 

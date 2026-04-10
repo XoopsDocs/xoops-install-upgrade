@@ -28,6 +28,12 @@ To make things smoother, you should eliminate cache and Smarty compiled template
 * _xoops\_data_/caches/smarty\_compile
 * _xoops\_data_/caches/xoops\_cache
 
+> **Note:** Clearing `smarty_compile` is especially important when moving a site to or from XOOPS 2.7.0. XOOPS 2.7.0 uses Smarty 4, and Smarty 4 compiled templates are not interchangeable with Smarty 3 compiled templates. Leaving stale compiled files in place will cause template errors at first page load on the new site.
+
+### `xoops_lib` and Composer Dependencies
+
+XOOPS 2.7.0 manages its PHP dependencies through Composer, inside `xoops_lib/`. The `xoops_lib/vendor/` directory contains the third-party libraries that XOOPS needs at runtime (Smarty 4, PHPMailer, HTMLPurifier, etc.). When moving a site, you must copy the entire `xoops_lib/` tree — including `vendor/` — to the new host. Do not attempt to regenerate `vendor/` on the target host unless you are a developer who has customized `composer.json` and has Composer available on the target.
+
 ## Setup the New Environment
 
 The same items that are covered in the section [Advance Preparations](../installation/preparations/) apply here as well. We will assume here that you have whatever hosting you will need for the site you are moving.
@@ -58,9 +64,9 @@ As an example, if you are moving a site from your local PC to a commercial hosti
 
 | Name | Old Value in mainfile.php | New Value in mainfile.php |
 | :--- | :--- | :--- |
-| XOOPS\_ROOT\_PATH | c:/wamp/xoopscore25/htdocs | /home8/example/public\_html |
-| XOOPS\_PATH | c:/wamp/xoopscore25/htdocs/xoops\_lib | /home8/example/private/xoops\_lib |
-| XOOPS\_VAR\_PATH | c:/wamp/xoopscore25/htdocs/xoops\_data | /home8/example/private/xoops\_data |
+| XOOPS\_ROOT\_PATH | c:/wamp/xoopscore27/htdocs | /home8/example/public\_html |
+| XOOPS\_PATH | c:/wamp/xoopscore27/htdocs/xoops\_lib | /home8/example/private/xoops\_lib |
+| XOOPS\_VAR\_PATH | c:/wamp/xoopscore27/htdocs/xoops\_data | /home8/example/private/xoops\_data |
 | XOOPS\_URL | http://localhost/xoops | https://example.com |
 | XOOPS\_COOKIE\_DOMAIN | localhost | example.com |
 

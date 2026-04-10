@@ -19,11 +19,23 @@ The first task in the XOOPS installation is to copy the [files you extracted](..
 
 ## Make Sure These Directories and Files are writable
 
-Normally, these will be created correctly during the _copy_ processes in the previous steps.
+Normally, these will be created correctly during the _copy_ processes in the previous steps. XOOPS 2.7.0 expects the following paths to be writable by the web server process:
 
-* mainfile.php
-* uploads/  and all the files and directories it contains
-* xoops\_data/ \(as relocated/renamed\) and all the files and directories it contains
+* `mainfile.php` \(writable during install and upgrade\)
+* `uploads/` and all of its subdirectories:
+  * `uploads/avatars/`
+  * `uploads/files/`
+  * `uploads/images/`
+  * `uploads/ranks/`
+  * `uploads/smilies/`
+* `xoops_data/` \(as relocated/renamed\) and all of its subdirectories, notably:
+  * `xoops_data/caches/`
+  * `xoops_data/caches/xoops_cache/`
+  * `xoops_data/caches/smarty_cache/`
+  * `xoops_data/caches/smarty_compile/`
+  * `xoops_data/configs/`
+  * `xoops_data/data/`
+  * `xoops_data/protector/`
 
 ## Launch the XOOPS Installer
 
@@ -45,5 +57,5 @@ The following pages describe the XOOPS installation process
 * [Select Theme](step-12.md)
 * [Modules Installation](step-13.md)
 * [Welcome](step-14.md)
-* [Cleanup](step-20.md)
+* [Cleanup](step-15.md)
 

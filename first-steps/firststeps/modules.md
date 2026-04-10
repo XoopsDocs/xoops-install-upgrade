@@ -4,6 +4,8 @@ Modules are the building blocks of XOOPS systems. Modules provide specific funct
 
 XOOPS maintains an "organization" consisting of modules on GitHub here: [https://github.com/XoopsModules25x](https://github.com/XoopsModules25x)
 
+> The `25x` in the organization name is historical — it dates from the XOOPS 2.5.x series but remains the canonical module repository for XOOPS 2.7.0 as well. XOOPS 2.7.0 core itself links administrators to this organization from the System module. Many modules hosted there have been updated for PHP 8.2+ and XOOPS 2.7.0 compatibility; check each module's README and releases for current support information.
+
 For our example, we will add an article management module called "Publisher" to a new system. Publisher can be used to manage any kind of articles. It provides a hierarchical category system to organize articles, article submission and editing, an extensive permission system to control viewing and editing rights, and article syndication using RSS.
 
 The _publisher_ repository can be found here: [https://github.com/XoopsModules25x/publisher](https://github.com/XoopsModules25x/publisher)

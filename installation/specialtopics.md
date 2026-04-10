@@ -65,14 +65,29 @@ setsebool -P httpd_can_network_connect_db=1
 
 For more information consult your system documentation and/or systems administrator.
 
-## MySQL 8.0 Environments
+## Smarty 4 and Custom Themes
 
-MySQL 8.0 is not fully supported in PHP versions before 7.1.16, or PHP 7.2 versions before 7.2.4. In earlier versions, 
-issues with the  PHP *mysqlnd* library may require the MySQL server's *default-authentication-plugin* to be set to 
-*mysql_native_password* to function correctly.
- 
-Additional background may be found here: 
+XOOPS 2.7.0 upgraded its templating engine from Smarty 3 to **Smarty 4**. Smarty 4 is stricter
+about template syntax than Smarty 3, and a few patterns that were tolerated in older templates
+will now cause errors. If you are installing a fresh copy of XOOPS 2.7.0 using only the themes
+and modules shipped with the release, there is nothing to worry about — every shipped template
+has been updated for Smarty 4 compatibility.
 
-https://www.php.net/manual/en/mysqli.requirements.php
+The concern applies when you are:
 
-https://mysqlserverteam.com/upgrading-to-mysql-8-0-default-authentication-plugin-considerations/
+- upgrading an existing XOOPS 2.5.x site that has custom themes, or
+- installing custom themes or older third-party modules into XOOPS 2.7.0.
+
+Before switching live traffic to an upgraded site, run the preflight scanner that ships in the
+`/upgrade/` directory. It scans `/themes/` and `/modules/` looking for Smarty 4 incompatibilities
+and can automatically repair many of them. See the
+[Preflight Check](../upgrading/upgrade/preflight.md) page for details.
+
+If you hit template errors after an install or upgrade:
+
+1. Re-run `/upgrade/preflight.php` and address any reported issues.
+2. Clear the compiled template cache by removing everything except `index.html` from
+   `xoops_data/caches/smarty_compile/`.
+3. Temporarily switch to a shipped theme such as `xbootstrap5` or `default` to confirm the problem
+   is theme-specific rather than site-wide.
+4. Validate any custom theme or module template changes before returning the site to production.
